@@ -176,7 +176,7 @@ def main():
                 mouse_x, mouse_y = pygame.mouse.get_pos()
                 
                 # Calcul de la vitesse en fonction de la position (tire vers la surface)
-                vel_x = (WIDTH/2 - mouse_x) * 0.03
+                vel_x = 0
                 vel_y = 2
                 
                 # Création du projectile
